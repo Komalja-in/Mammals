@@ -12,7 +12,7 @@ let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,
 function renderParallaxImages()
 {
   //subf(small Image number pi, X loation, Y location, Parent Number, Total parallax in pixels relative to 1920X1080, true if opacity is enabled - Ignore for now )
-  subf(1,623, 248, 2, 40);
+  subf(1,623, 248, 2, 10);
   subf(2,153, 164, 3, 100, true);
   subf(3,390, 614, 3, 60, true);
   subf(4,1200, 290, 3, 60, true);
