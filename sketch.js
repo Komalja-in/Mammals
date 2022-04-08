@@ -242,7 +242,7 @@ let loaded=false;
 function draw() {
   
  
-  if(loadCompleteCount==101)
+  if(loadCompleteCount==100)
     {
       
       if(loaded==false)
