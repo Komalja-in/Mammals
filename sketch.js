@@ -3,7 +3,7 @@ let totalImages = 16;
 let totalSounds = 4;
 let totalParallaxImages = 47;
 let scrollSpeed = 20;
-let fullOpacity=0.8;
+let fullOpacity=0.1;
 let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,37,38,39,40,41,42,43,44,45,46,47];
 
 
@@ -89,6 +89,7 @@ let totalw = 0;
 let displayw = 0;
 
 function setup() {
+  pixelDensity(1);
   opt=loadImage("ref/optest.png");
   cnv = createCanvas(windowWidth, windowHeight);
   cnv.position(0, 0, "fixed");
@@ -248,12 +249,15 @@ function draw() {
       if(loaded==false)
         {
               aboutButton.style.display="flex";
-  referencesButton.style.display="flex";
-  mute.style.display="flex";
-  intro.style.display="flex";
-          loaded=true;
+                referencesButton.style.display="flex";
+                mute.style.display="flex";
+                intro.style.display="flex";
+                        loaded=true;
         }
   
+
+
+
       
   ratio=windowHeight/1080;
   displayw = (windowHeight * img[1].width) / img[1].height;
@@ -317,7 +321,12 @@ function draw() {
     }
   else
     {
-      background(255);
+      let loadwidth=width*0.5;
+      background("#e6c946");
+      fill(0,50);
+      rect((width/2)-loadwidth/2,height/2,loadwidth,50,10);
+      fill("#5E0004");
+      rect(width/2-loadwidth/2,height/2,loadwidth*loadCompleteCount/102,50,10);
     }
   
   
@@ -398,7 +407,7 @@ function subf(imgNo, x, y, i, p, ob) {
     
     if(ob)
       {
-        o = map(mp,0,windowWidth/2,10,0);
+         o = map(mp,windowWidth*(fullOpacity-0.5),windowWidth/2+oimg[imgNo].width*ratio*0.5,10,0);
         for(let g=0;g<o;g++)
           {
            
