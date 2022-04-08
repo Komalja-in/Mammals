@@ -75,11 +75,11 @@ function renderParallaxImages()
   
   //soundplay(x location, parent img no)
   soundplay(1,2,1);
-  soundplay(1,2,5);
-  soundplay(1,2,10);
-  soundplay(2,50,2);
-  soundplay(3,200,4);
-  soundplay(4,5,9);
+ // soundplay(1,2,5);
+ // soundplay(1,2,10);
+ // soundplay(2,50,2);
+ // soundplay(3,200,4);
+ // soundplay(4,5,9);
 }
 
 
@@ -110,9 +110,9 @@ function setup() {
   
     //SOUND//
   song[1] = loadSound('ref/s1.mp3',loadComplete);
-  song[2] = loadSound('ref/s2.mp3',loadComplete);
-  song[3] = loadSound('ref/s3.mp3',loadComplete);
-  song[4] = loadSound('ref/s4.mp3',loadComplete);
+ // song[2] = loadSound('ref/s2.mp3',loadComplete);
+ // song[3] = loadSound('ref/s3.mp3',loadComplete);
+ // song[4] = loadSound('ref/s4.mp3',loadComplete);
 
   
   // for (let i = 1; i < totalSounds; i++) {
