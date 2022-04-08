@@ -122,11 +122,6 @@ a{
   
 }
 
-@media all and (max-width: 600px){
-  p, .introButton,h1, h2, h4  {
-   font-size:12px;
-   }
-
 .introButton
 {
   background-color: #a50404;
@@ -143,7 +138,12 @@ a{
   padding-top: 5px;
   font-size: 12pt;
   
+  
 }
+@media all and (max-width: 600px){
+  p, .introButton,h1, h2, h4  {
+   font-size:12px;
+   }
 
 p {
    font-family: 'AvaraBold';
