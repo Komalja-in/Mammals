@@ -1,6 +1,6 @@
 //hello enter total images here
 let totalImages = 16;
-let totalSounds = 4;
+let totalSounds = 1;
 let totalParallaxImages = 47;
 let scrollSpeed = 20;
 let fullOpacity=0.8;
@@ -242,7 +242,7 @@ let loaded=false;
 function draw() {
   
  
-  if(loadCompleteCount==102)
+  if(loadCompleteCount==101)
     {
       
       if(loaded==false)
