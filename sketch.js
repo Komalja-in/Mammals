@@ -1,9 +1,10 @@
+
+
 //hello enter total images here
 let totalImages = 16;
-let totalSounds = 4;
+let totalSounds = 1;
 let totalParallaxImages = 47;
-let scrollSpeed = 20;
-let fullOpacity=0.8;
+let scrollSpeed = 90;
 let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,37,38,39,40,41,42,43,44,45,46,47];
 
 
@@ -74,12 +75,7 @@ function renderParallaxImages()
   
   
   //soundplay(x location, parent img no)
-  soundplay(1,2,1);
-  soundplay(1,2,5);
-  soundplay(1,2,10);
-  soundplay(2,50,2);
-  soundplay(3,200,4);
-  soundplay(4,5,9);
+  soundplay(1,500,15);
 }
 
 
@@ -109,15 +105,10 @@ function setup() {
   
   
     //SOUND//
-  song[1] = loadSound('ref/s1.mp3',loadComplete);
-  song[2] = loadSound('ref/s2.mp3',loadComplete);
-  song[3] = loadSound('ref/s3.mp3',loadComplete);
-  song[4] = loadSound('ref/s4.mp3',loadComplete);
-
-  
-  // for (let i = 1; i < totalSounds; i++) {
-  //   append(song, loadSound("s" + (i + 1) + ".mp3",loadComplete));
-  // }
+  song[1] = loadSound('ref/s1.mp3');
+  for (let i = 1; i < totalSounds; i++) {
+    append(img, loadImage("s" + (i + 1) + ".mp3",loadComplete));
+  }
   
   
   img[1] = loadImage("a1.png");
@@ -160,7 +151,7 @@ let loadCompleteCount=0;
 function loadComplete()
 {
   loadCompleteCount++;
-  print(loadCompleteCount);
+  //print(loadCompleteCount);
 }
 
 function recalculate() {
@@ -242,7 +233,7 @@ let loaded=false;
 function draw() {
   
  
-  if(loadCompleteCount==102)
+  if(loadCompleteCount>30)
     {
       
       if(loaded==false)
