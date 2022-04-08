@@ -54,7 +54,7 @@ body {
   z-index: 1;
   display: flex;
   background: #a50404;
-  color: #e6c950;
+  color: yellow;
   border-radius: 20px ;
   position: absolute;
   width: 70%;
@@ -78,7 +78,7 @@ a{
     font-family: 'AvaraBold';
    font-weight: normal;
    font-style: normal;
-  color: #e6c950;
+  color: yellow;
   color: #FFFFFF;
   text-decoration: none;
   
@@ -122,11 +122,6 @@ a{
   
 }
 
-@media all and (max-width: 600px){
-  p, .introButton,h1, h2, h4  {
-   font-size:12px;
-   }
-
 .introButton
 {
   background-color: #a50404;
@@ -138,7 +133,7 @@ a{
   position: relative;
   text-align: center;
   border-radius: 5px;
-  color: #e6c950;
+  color: yellow;
   padding-bottom: 0px;
   padding-top: 5px;
   font-size: 12pt;
