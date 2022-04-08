@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/avara" type="text/css">
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <div class="tid" id="intro"> 
+      <div>
+        <h1>Why are mammals called mammals?</h1> 
+        
+        <h4>A story exploring the position of humankind in nature and of women in humankind.</h4> 
+      </div>
+      <div class="column">
+        <button class="introButton" type="button" onclick="startStory()"> <img src="ref/Intro button.svg" width="180" height="90" alt="submit"><div class="centered"><p>Start Story</p></div></button>
+      </div>
+      <div class="column">
+        <button class="introButton" type="button" onclick="aboutClicked()"> <img src="ref/Intro button.svg" width="180" height="90" alt="submit"><div class="centered"><p>About</p></div></button>
+       
+      </div>
+      
+    </div>
+    
+    
+    <div class="tid" id="about">
+      <h1>Why are mammals called mammals?</h1>
+      <p>
+A project by Komal Jain <br>
+<br>
+Medium: Online comic/zine, collage art, poetry, lorem ipsum <br>
+Reading Time: 10 minutes <br>
+Size: Variable, as per viewing screen <br>
+Year of Production: 2021-2022 <br>
+<br>
+The graphic narrative is based on the article, Why are Mammals called Mammals? Gender Politics in Eighteenth Century Natural History by Dr.Londa Schiebinger. It talks about how the classification of mammals and inclusion of humans in the class is influenced by the gender politics of that time. Having not had a chance to study textbooks in school with a critical eye, reading the article was an eye-opening experience for me. The motivation is not to question science but rather to look back at the relations between science, society and politics. I hope this project leads to a public dialogue as to why the name still exists post Darwinian revolution, as suggested by Dr. Schiebinger and collective questioning to bring a change. <br> <br>
+
+For storytelling purposes, wherever required, places and time have been blurred and additional references are made, keeping the historical accuracy of ideas and thoughts intact. <br> <br>
+      
+This project was made possible with the support of the British Council through the Creating Heroines Grant.. <br>
+<br> <br>
+Team: <br> 
+Written, designed and storyboarded by Komal Jain <br>
+Visual styling and image sourcing by Ritika Jathar and Komal Jain <br>
+Illustrations by Ritika Jathar <br>
+Web development by Akhil Patil <br>
+<br>
+Special thanks to
+Wellcome Collection for their public archive of images without which the project wouldn't have happened, Gayatri, Vasudha, and Micah for constant support and feedback, Madhu and Praful for helping get clarity, Deepikah for helping initiate the project, and lastly, Neha and Yatharth for their inputs.  <br>
+<br>
+Click here to access the article by Dr. Londa Schiebinger <br> <br>
+Click here for the complete list of bibliography and image sources <br> <br>
+Click <a href="https://www.youtube.com/?gl=IN" target="_blank"> here </a> to get in touch </p></div>
+    
+    
+    
+
+
+
+    
+    <button class="introButton" type="button" onclick=" window.open('http://google.com','_blank')" id="referencesButton" value="about" background-color="red">References</button>
+    
+    <button class="introButton" type="button" onclick="aboutClicked()" id="aboutButton" value="about" background-color="red">About</button>
+    
+    <button class="soundButton" type="button" onclick="soundClicked()" id="soundButton" value="sound"><img id="mute" src="ref/Sound on.svg" width="22" height="22" alt="Mute">
+    </button>
+    
+    
+    
+    <script src="sketch.js"></script>
+  
+
+</body></html>
