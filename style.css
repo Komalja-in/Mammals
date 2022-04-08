@@ -122,6 +122,11 @@ a{
   
 }
 
+@media all and (max-width: 600px){
+  p, .introButton,h1, h2, h4  {
+   font-size:12px;
+   }
+
 .introButton
 {
   background-color: #a50404;
