@@ -54,7 +54,7 @@ body {
   z-index: 1;
   display: flex;
   background: #a50404;
-  color: yellow;
+  color: #e6c946;
   border-radius: 20px ;
   position: absolute;
   width: 70%;
@@ -78,7 +78,7 @@ a{
     font-family: 'AvaraBold';
    font-weight: normal;
    font-style: normal;
-  color: yellow;
+  color: #e6c946;
   color: #FFFFFF;
   text-decoration: none;
   
@@ -133,7 +133,7 @@ a{
   position: relative;
   text-align: center;
   border-radius: 5px;
-  color: yellow;
+  color: #e6c946;
   padding-bottom: 0px;
   padding-top: 5px;
   font-size: 12pt;
