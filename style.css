@@ -101,7 +101,7 @@ a{
    display:none; 
 }
 
-#mute{
+#soundButton{
   position: absolute;
   z-index: 1;
   right: 20px;
