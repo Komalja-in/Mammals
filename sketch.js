@@ -98,7 +98,7 @@ function setup() {
 
   intro = document.getElementById("intro");
   about = document.getElementById("about");
-  mute = document.getElementById("soundButton");
+  mute = document.getElementById("mute");
   references = document.getElementById("references");
   aboutButton = document.getElementById("aboutButton");
   referencesButton = document.getElementById("referencesButton");
@@ -183,13 +183,12 @@ function soundClicked() {
   soundClickedValue = !soundClickedValue;
 
   if (soundClickedValue) {
-    mute.src = "ref/soundOff.png";
-    song[1].pause();
+    mute.src = "ref/Sound off.svg";
+    setVolume(0);
     print("pause");
   } else {
-    mute.src = "ref/soundOn.png";
-    //song.pause();
-    song[1].play();
+    mute.src = "ref/Sound on.svg";
+    setVolume(1);
   }
 }
 
