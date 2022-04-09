@@ -99,6 +99,7 @@ function setup() {
   intro = document.getElementById("intro");
   about = document.getElementById("about");
   mute = document.getElementById("mute");
+  soundButton=document.getElementById("soundButton");
   references = document.getElementById("references");
   aboutButton = document.getElementById("aboutButton");
   referencesButton = document.getElementById("referencesButton");
@@ -255,7 +256,7 @@ function draw() {
         {
               aboutButton.style.display="flex";
                 referencesButton.style.display="flex";
-                mute.style.display="flex";
+               soundButton.style.display="flex";
                 intro.style.display="flex";
                         loaded=true;
         }
