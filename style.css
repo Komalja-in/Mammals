@@ -140,27 +140,7 @@ a{
   
 }
 
-@media all and (max-width: 600px){
-  p{
-    font-size:14px;
-  }
-  
-  .introButton {
-   font-size:18px;
-   }
-  h1{
-    font-size:22px;
-  }
-  
-    h2{
-    font-size:18px;
-  }
-  
-      h4{
-    font-size:14px;
-  }
-   
-}
+
 
 p {
    font-family: 'AvaraBold';
