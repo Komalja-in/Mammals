@@ -321,12 +321,11 @@ function draw() {
     }
   else
     {
-      let loadwidth=width*0.5;
       background("#e6c946");
       fill(0,50);
-      rect((width/2)-loadwidth/2,height/2,loadwidth,50,10);
+      rect(width/2-100,height/2,300,50,10);
       fill("#5E0004");
-      rect(width/2-loadwidth/2,height/2,loadwidth*loadCompleteCount/102,50,10);
+      rect(width/2-100,height/2,300*loadCompleteCount/102,50,10);
     }
   
   
