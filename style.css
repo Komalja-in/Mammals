@@ -138,12 +138,29 @@ a{
   padding-top: 5px;
   font-size: 12pt;
   
-  
 }
+
 @media all and (max-width: 600px){
-  p, .introButton,h1, h2, h4  {
-   font-size:12px;
+  p{
+    font-size:14px;
+  }
+  
+  .introButton {
+   font-size:18px;
    }
+  h1{
+    font-size:22px;
+  }
+  
+    h2{
+    font-size:18px;
+  }
+  
+      h4{
+    font-size:14px;
+  }
+   
+}
 
 p {
    font-family: 'AvaraBold';
