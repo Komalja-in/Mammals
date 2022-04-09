@@ -184,11 +184,17 @@ function soundClicked() {
 
   if (soundClickedValue) {
     mute.src = "ref/Sound off.svg";
-    setVolume(0);
+    song[1].setVolume(0);
+    song[2].setVolume(0);
+    song[3].setVolume(0);
+    song[4].setVolume(0);
     print("pause");
   } else {
     mute.src = "ref/Sound on.svg";
-    setVolume(1);
+    song[1].setVolume(1);
+    song[2].setVolume(1);
+    song[3].setVolume(1);
+    song[4].setVolume(1);
   }
 }
 
