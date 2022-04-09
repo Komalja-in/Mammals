@@ -3,7 +3,7 @@ let totalImages = 16;
 let totalSounds = 4;
 let totalParallaxImages = 47;
 let scrollSpeed = 20;
-let fullOpacity=0.1;
+let fullOpacity=0.95;
 let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,37,38,39,40,41,42,43,44,45,46,47];
 
 
@@ -314,6 +314,8 @@ function draw() {
   fill(165, 4, 4,100)
   noStroke();
   ellipse(mouseX, mouseY, 10, 10);
+      fill(255,150);
+      ellipse(-x*width*0.9/totalw+width*0.05,height*0.97,height*0.03,height*0.03);
   
   
       
@@ -321,11 +323,12 @@ function draw() {
     }
   else
     {
+      let loadwidth=width*0.5;
       background("#e6c946");
       fill(0,50);
-      rect(width/2-100,height/2,300,50,10);
+      rect((width/2)-loadwidth/2,height/2,loadwidth,50,10);
       fill("#5E0004");
-      rect(width/2-100,height/2,300*loadCompleteCount/102,50,10);
+      rect(width/2-loadwidth/2,height/2,loadwidth*loadCompleteCount/102,50,10);
     }
   
   
