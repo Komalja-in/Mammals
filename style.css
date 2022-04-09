@@ -7,14 +7,14 @@ html, body {
   font-family: 'AvaraBold';
    font-weight: normal;
    font-style: normal;
-  font-size: min(2vw,16px);
+  font-size: max(4vw,16px);
   color: #a50404;
 
 }
 
 h1{
   text-align: center;
-  font-size:min(2vw,16px);
+  font-size:max(4vw,16px);
 }
 canvas {
   display: block;
@@ -27,7 +27,7 @@ canvas {
 
 h2{
   text-align: center;
-  font-size: min(2vw,16px);
+  font-size: max(4vw,16px);
 }
 canvas {
   display: block;
@@ -40,7 +40,7 @@ canvas {
 
 h4{
   text-align: center;
-  font-size: min(2vw,16px);
+  font-size: max(4vw,16px);
 }
 
 
@@ -56,7 +56,7 @@ h4{
   left: 50%;
   top: 50%;
   transform: translate(-50%, max(-50%,-40vh));
-  font-size: min(2vw,16px);
+  font-size: max(4vw,16px);
   padding: min(50px, 5%);
    display:none;
   
@@ -72,7 +72,7 @@ a{
     font-family: 'AvaraBold';
    font-weight: normal;
    font-style: normal;
-  font-size:min(2vw,16px);
+  font-size:max(4vw,16px);
   color: #fcdc63;
   color: #FFFFFF;
   text-decoration: none;
@@ -131,7 +131,7 @@ a{
   color: #fcdc63;
   padding-bottom: 0px;
   padding-top: 5px;
-  font-size: min(2vw,16px);
+  font-size: max(4vw,16px);
   
 }
 
@@ -141,7 +141,7 @@ p {
    font-family: 'AvaraBold';
    font-weight: normal;
    font-style: normal;
-  font-size: 10vw;
+   font-size: max(4vw,16px);
 }
 
 .column {
