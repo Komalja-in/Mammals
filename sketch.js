@@ -321,7 +321,7 @@ function draw() {
   fill(165, 4, 4,100)
   noStroke();
   ellipse(mouseX, mouseY, 10, 10);
-    image(progressIcon,-x*width*0.9/totalw+width*0.05,height*0.97);
+    image(progressIcon,-x*width*0.8/totalw+width*0.1,height-progressIcon.height*1.05, 0.05 * width, progressIcon.height * 0.05 * width / progressIcon.width);
   
   
   
