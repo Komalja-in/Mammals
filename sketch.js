@@ -142,6 +142,7 @@ function setup() {
     
   noCursor();
   
+  progressIcon=loadImage("ref/Progress-Icon.png",loadComplete);
 
   //intro = loadImage("Introductionwindow.png",loadComplete);
 
@@ -156,7 +157,7 @@ function setup() {
 
 
 
-let loadingBG;
+let loadingBG, progressIcon;
 let loadCompleteCount=0;
 
 function loadComplete()
@@ -249,7 +250,7 @@ let loaded=false;
 function draw() {
   
  
-  if(loadCompleteCount==102)
+  if(loadCompleteCount==103)
     {
       
       if(loaded==false)
@@ -320,6 +321,8 @@ function draw() {
   fill(165, 4, 4,100)
   noStroke();
   ellipse(mouseX, mouseY, 10, 10);
+    image(progressIcon,-x*width*0.9/totalw+width*0.05,height*0.97,height*0.03,height*0.03);
+  
   
   
       
