@@ -142,7 +142,7 @@ function setup() {
     
   noCursor();
   
-  progressIcon=loadImage("ref/Progress-Icon.png",loadComplete);
+  progressIcon=loadImage("ref/Progress-icon.png",loadComplete);
 
   //intro = loadImage("Introductionwindow.png",loadComplete);
 
