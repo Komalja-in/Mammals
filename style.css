@@ -140,28 +140,27 @@ a{
   
 }
 
-@media only screen and (max-width: 600px){
+@media all and (max-width: 600px){
   p{
-    font-size:16px;
+    font-size:14px;
   }
   
   .introButton {
-   font-size:18px;
+   font-size:18pt;
    }
-  h1{
-    font-size:24px;
+    h1{
+    font-size:22pt;
   }
   
     h2{
-    font-size:20px;
+    font-size:18pt;
   }
   
-      h4{
-    font-size:16px;
+    h4{
+    font-size:14pt;
   }
    
 }
-
 
 p {
    font-family: 'AvaraBold';
