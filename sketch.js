@@ -332,9 +332,9 @@ function draw() {
     {
       background("#e6c946");
       fill(0,50);
-      rect(width/2-100,height/2,300,50,10);
+      rect(width*0.2,height/2-width*0.1,width*0.6,width*0.2,width*0.1);
       fill("#5E0004");
-      rect(width/2-100,height/2,300*loadCompleteCount/102,50,10);
+      rect(width*0.2,height/2-width*0.1,width*0.2+width*0.4*(loadCompleteCount/102),width*0.2,width*0.1);
     }
   
   
