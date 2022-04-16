@@ -332,9 +332,10 @@ function draw() {
     {
       background("#e6c946");
       fill(0,50);
-      rect(width*0.2,height/2-width*0.1,width*0.6,width*0.2,width*0.1);
+      lbHeight=width*0.05;
+      rect(width*0.2,height*0.5-lbHeight*0.5,width*0.6,lbHeight,lbHeight*0.5);
       fill("#5E0004");
-      rect(width*0.2,height/2-width*0.1,width*0.2+width*0.4*(loadCompleteCount/102),width*0.2,width*0.1);
+      rect(width*0.2,height*0.5-lbHeight*0.5,lbHeight+(width*0.6 - lbHeight)*(loadCompleteCount/102),lbHeight,lbHeight*0.5);
     }
   
   
