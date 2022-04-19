@@ -53,7 +53,7 @@ function renderParallaxImages()
   subf(32,790, 370, 10, 10, true);
   subf(33,1300, 760, 10, 10, true);
   subf(34,1798, 300, 10, 10, true);
-  subf(34,633, 248, 10, 40, true);
+  subf(1,633, 248, 10, 40, true);
   
   subf(35,1168, 180, 11, 10, true);
   subf(37,1768, 840, 11, 10, true);  
