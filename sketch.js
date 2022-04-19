@@ -3,7 +3,7 @@ let totalImages = 16;
 let totalSounds = 4;
 let totalParallaxImages = 47;
 let scrollSpeed = 20;
-let fullOpacity=0.6;
+let fullOpacity=0.2;
 let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,37,38,39,40,41,42,43,44,45,46,47];
 
 
@@ -11,7 +11,6 @@ let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,
 function renderParallaxImages()
 {
   //subf(small Image number pi, X loation, Y location, Parent Number, Total parallax in pixels relative to 1920X1080, true if opacity is enabled - Ignore for now )
-  subf(1,633, 248, 2, 40);
   subf(2,153, 164, 3, 100, true);
   subf(3,390, 614, 3, 60, true);
   subf(4,1130, 290, 3, 60, true);
@@ -54,6 +53,7 @@ function renderParallaxImages()
   subf(32,790, 370, 10, 10, true);
   subf(33,1300, 760, 10, 10, true);
   subf(34,1798, 300, 10, 10, true);
+  subf(34,633, 248, 10, 40, true);
   
   subf(35,1168, 180, 11, 10, true);
   subf(37,1768, 840, 11, 10, true);  
