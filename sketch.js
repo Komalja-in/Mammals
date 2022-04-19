@@ -122,9 +122,9 @@ function setup() {
   // }
   
   
-  img[1] = loadImage("a1.png");
+  img[1] = loadImage("a1.jpg");
   for (let i = 1; i < totalImages; i++) {
-    append(img, loadImage("a" + (i + 1) + ".png",loadComplete));
+    append(img, loadImage("a" + (i + 1) + ".jpg",loadComplete));
   }
   
   pimg[1] = loadImage("parallax/img \(1\).png");
