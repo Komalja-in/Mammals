@@ -11,24 +11,24 @@ let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,
 function renderParallaxImages()
 {
   //subf(small Image number pi, X loation, Y location, Parent Number, Total parallax in pixels relative to 1920X1080, true if opacity is enabled - Ignore for now )
-  subf(1,603, 248, 2, 40);
+  subf(1,633, 248, 2, 40);
   subf(2,153, 164, 3, 100, true);
   subf(3,390, 614, 3, 60, true);
-  subf(4,1200, 290, 3, 60, true);
-  subf(5,1796, 516, 3, 10, true);
+  subf(4,1130, 290, 3, 60, true);
+  subf(5,1789, 540, 3, 10, true);
   
-  subf(6,393, 414, 4, 70);
+  subf(6,453, 414, 4, 70);
   subf(7,1050, 300, 4, 60);
   subf(8,1566, 306, 4, 70);
   
-  subf(9,305, 425, 4, 50, true);
-  subf(10,506, 333, 4, 50, true);
-  subf(11,950, 553, 4, 80, true);
+  subf(9,395, 425, 4, 50, true);
+  subf(10,606, 333, 4, 50, true);
+  subf(11,1020, 553, 4, 80, true);
   subf(12,1499, 585, 4, 50, true);
   subf(13,1758, 108, 4, 20, true);
   
-  subf(14,390, 585, 5, 10, true);
-  subf(15,718, 730, 5, 10, true);
+  subf(14,390, 645, 5, 10, true);
+  subf(15,718, 740, 5, 10, true);
   
   subf(16,840, 155, 6, 30);
   subf(21,1080, 70, 6, 30, true);
@@ -57,7 +57,7 @@ function renderParallaxImages()
   
   subf(35,1168, 180, 11, 10, true);
   subf(37,1768, 840, 11, 10, true);  
-  subf(38,548, 410, 12, 10, true);
+  subf(38,548, 410, 12, 40, true);
   subf(39,998, 680, 12, 10, true);
   
   subf(40,868, 5, 13, 10, true);
