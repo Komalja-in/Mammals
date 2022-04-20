@@ -3,8 +3,8 @@ let totalImages = 16;
 let totalSounds = 4;
 let totalParallaxImages = 47;
 let scrollSpeed = 20;
-let fullOpacity=0.2;
-let hasOpacity=[2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,37,38,39,40,41,42,43,44,45,46,47];
+let fullOpacity=0.7;
+let hasOpacity=[1,2,3,4,5,9,10,11,12,13,14,15,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,37,38,39,40,41,42,43,44,45,46,47];
 
 
 //enter the info here
