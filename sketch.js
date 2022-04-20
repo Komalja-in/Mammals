@@ -74,9 +74,9 @@ function renderParallaxImages()
   
   
   //soundplay(x location, parent img no)
-  soundplay(2,1,2);
-  soundplay(1,1890,3);
-  soundplay(3,200,4);
+  soundplay(2,1,1);
+  soundplay(1,1700,3);
+  soundplay(3,1700,9);
   soundplay(2,1900,11);
   soundplay(4,1900,12);
 }
