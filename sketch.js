@@ -92,7 +92,7 @@ function setup() {
   opt=loadImage("ref/optest.png");
   cnv = createCanvas(windowWidth, windowHeight);
   cnv.position(0, 0, "fixed");
-  loadingBG = loadImage("ref/Loading-BG.png");
+  loadingBG = loadImage("ref/Loading-BG.jpg");
   //imageMode(CENTER);
 
   intro = document.getElementById("intro");
